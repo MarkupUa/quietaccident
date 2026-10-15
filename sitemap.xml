@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
     <loc>https://quietaccident.com/</loc>
-    <lastmod>2026-10-14</lastmod>
+    <lastmod>2026-10-15</lastmod>
     <image:image>
       <image:loc>https://quietaccident.com/assets/images/banner_3.png</image:loc>
       <image:title>Quiet Accident — dark electronic music for the road after dark</image:title>
@@ -10,7 +10,7 @@
   </url>
   <url>
     <loc>https://quietaccident.com/about/</loc>
-    <lastmod>2026-10-14</lastmod>
+    <lastmod>2026-10-15</lastmod>
     <image:image>
       <image:loc>https://quietaccident.com/assets/images/logo_sqr_small.png</image:loc>
       <image:title>Quiet Accident official metallic emblem</image:title>
@@ -18,15 +18,23 @@
   </url>
   <url>
     <loc>https://quietaccident.com/releases/</loc>
-    <lastmod>2026-10-14</lastmod>
+    <lastmod>2026-10-15</lastmod>
     <image:image>
       <image:loc>https://quietaccident.com/assets/images/banner_3.png</image:loc>
       <image:title>Quiet Accident official releases</image:title>
     </image:image>
   </url>
   <url>
+    <loc>https://quietaccident.com/releases/halia-drift/</loc>
+    <lastmod>2026-10-15</lastmod>
+    <image:image>
+      <image:loc>https://quietaccident.com/assets/images/releases/Halia_Drift.png</image:loc>
+      <image:title>Halia Drift by Quiet Accident — official single artwork</image:title>
+    </image:image>
+  </url>
+  <url>
     <loc>https://quietaccident.com/releases/midnight-shchedryk/</loc>
-    <lastmod>2026-10-14</lastmod>
+    <lastmod>2026-10-15</lastmod>
     <image:image>
       <image:loc>https://quietaccident.com/assets/images/releases/Midnight-Shchedryk.png</image:loc>
       <image:title>Midnight Shchedryk by Quiet Accident — official single artwork</image:title>
@@ -34,7 +42,7 @@
   </url>
   <url>
     <loc>https://quietaccident.com/releases/night-vector/</loc>
-    <lastmod>2026-10-14</lastmod>
+    <lastmod>2026-10-15</lastmod>
     <image:image>
       <image:loc>https://quietaccident.com/assets/images/releases/Night_Vector.png</image:loc>
       <image:title>Night Vector by Quiet Accident — official single artwork</image:title>
@@ -42,7 +50,7 @@
   </url>
   <url>
     <loc>https://quietaccident.com/releases/street-mode/</loc>
-    <lastmod>2026-10-14</lastmod>
+    <lastmod>2026-10-15</lastmod>
     <image:image>
       <image:loc>https://quietaccident.com/assets/images/releases/STREET_MODE.png</image:loc>
       <image:title>STREET MODE by Quiet Accident — official single artwork</image:title>
