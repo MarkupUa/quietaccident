@@ -1,0 +1,39 @@
+# Quiet Accident
+
+> Official website of Quiet Accident, an independent electronic music project combining Dark Techno, deep bass, hypnotic rhythms and cinematic atmosphere.
+
+This index summarizes public information from the official site. English pages are at the root; Ukrainian pages are under /ua/. Follow the release pages for current streaming links and available official videos.
+
+## Official pages
+
+- [Home](https://quietaccident.com/)
+- [About the project](https://quietaccident.com/about/)
+- [Release catalogue](https://quietaccident.com/releases/)
+- [Українська версія](https://quietaccident.com/ua/)
+- [Про проєкт](https://quietaccident.com/ua/about/)
+- [Релізи](https://quietaccident.com/ua/releases/)
+
+## Singles
+
+- [Halia Drift](https://quietaccident.com/releases/halia-drift/): single by Quiet Accident. Released 2026-10-16; duration PT3M28S.
+  - [Українською](https://quietaccident.com/ua/releases/halia-drift/)
+- [Midnight Shchedryk](https://quietaccident.com/releases/midnight-shchedryk/): single by Quiet Accident. Released 2026-10-09; duration PT3M41S.
+  - [Українською](https://quietaccident.com/ua/releases/midnight-shchedryk/)
+- [STREET MODE](https://quietaccident.com/releases/street-mode/): single by Quiet Accident. Released 2026-10-02; duration PT3M39S.
+  - [Українською](https://quietaccident.com/ua/releases/street-mode/)
+- [Night Vector](https://quietaccident.com/releases/night-vector/): single by Quiet Accident. Released 2026-09-25; duration PT3M59S.
+  - [Українською](https://quietaccident.com/ua/releases/night-vector/)
+
+## Official artist profiles
+
+- [music.apple.com](https://music.apple.com/us/artist/quiet-accident/6807803811)
+- [open.spotify.com](https://open.spotify.com/artist/0Uoyw8HMxfw0RG67OHzQJS)
+- [www.youtube.com](https://www.youtube.com/@QuietAccident)
+- [www.tiktok.com](https://www.tiktok.com/@quietaccident)
+- [x.com](https://x.com/QuietAccident)
+- [www.instagram.com](https://www.instagram.com/quietaccident/)
+- [www.pinterest.com](https://www.pinterest.com/quietaccidentmusic/)
+
+## Site index
+
+- [XML sitemap](https://quietaccident.com/sitemap.xml)
