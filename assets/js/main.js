@@ -19,7 +19,8 @@
     });
   }
   document.querySelectorAll('[data-release-grid]').forEach(grid => {
-    grid.innerHTML = releases.map(r => `<a class="release-card" href="${url(r)}">${art(r)}<div class="card-info"><div><h3>${escape(r.title)}</h3><time class="date" datetime="${r.releaseDate}">${date(r.releaseDate)}</time></div><span class="card-arrow" aria-hidden="true">↗</span></div><span class="text-link">View Release</span></a>`).join('');
+    const catalogue = grid.hasAttribute('data-home-catalogue') ? releases.slice(1, 4) : releases;
+    grid.innerHTML = catalogue.map(r => `<a class="release-card" href="${url(r)}">${art(r)}<div class="card-info"><div><h3>${escape(r.title)}</h3><time class="date" datetime="${r.releaseDate}">${date(r.releaseDate)}</time></div><span class="card-arrow" aria-hidden="true">↗</span></div><span class="text-link">View Release</span></a>`).join('');
   });
   const latest = document.querySelector('[data-latest]');
   if(latest && releases.length){const r = releases[0];latest.innerHTML = `<a href="${url(r)}" aria-label="View ${escape(r.title)}">${art(r)}</a><div class="latest-copy"><p class="eyebrow red">${r.releaseDate > new Date().toISOString().slice(0,10) ? 'Upcoming release' : 'Latest release'} / Single</p><h2>${escape(r.title)}</h2><p class="date"><time datetime="${r.releaseDate}">${date(r.releaseDate)}</time></p><p class="lede">${escape(r.description)}</p><a class="button" href="${url(r)}">View Release <span aria-hidden="true">↗</span></a></div>`;}
