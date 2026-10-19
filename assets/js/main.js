@@ -43,9 +43,9 @@
   const release = releases.find(r => r.slug === document.body.dataset.release);
   const platforms = document.querySelector('[data-platforms]');
   if(release && platforms){
-    const services = [['Amazon Music','amazonMusicUrl'],['Spotify','spotifyUrl'],['YouTube Music','youtubeMusicUrl'],['Apple Music','appleMusicUrl'],['iTunes','itunesUrl'],['Deezer','deezerUrl']];
+    const services = [['Spotify Pre-Save','preSaveUrl'],['Amazon Music','amazonMusicUrl'],['Spotify','spotifyUrl'],['YouTube Music','youtubeMusicUrl'],['Apple Music','appleMusicUrl'],['iTunes','itunesUrl'],['Deezer','deezerUrl']];
     const links = services.filter(([,key]) => /^https:\/\//.test(release[key] || ''));
-    platforms.innerHTML = localized(links.length ? links.map(([name,key]) => `<a class="platform" href="${escape(release[key])}" target="_blank" rel="noopener noreferrer"><svg viewBox="0 0 24 24" aria-hidden="true">${icons[name]}</svg><span>${name}</span><span class="arrow" aria-hidden="true">↗</span><span class="sr-only"> (opens in a new tab)</span></a>`).join('') : '<p class="empty-platforms">Streaming links for this single will be added here. Explore Quiet Accident on <a class="text-link" href="https://open.spotify.com/artist/0Uoyw8HMxfw0RG67OHzQJS" target="_blank" rel="noopener noreferrer">Spotify ↗</a>.</p>');
+    platforms.innerHTML = localized(links.length ? links.map(([name,key]) => `<a class="platform" href="${escape(release[key])}" target="_blank" rel="noopener noreferrer"><svg viewBox="0 0 24 24" aria-hidden="true">${icons[name === 'Spotify Pre-Save' ? 'Spotify' : name]}</svg><span>${name}</span><span class="arrow" aria-hidden="true">↗</span><span class="sr-only"> (opens in a new tab)</span></a>`).join('') : '<p class="empty-platforms">Streaming links for this single will be added here. Explore Quiet Accident on <a class="text-link" href="https://open.spotify.com/artist/0Uoyw8HMxfw0RG67OHzQJS" target="_blank" rel="noopener noreferrer">Spotify ↗</a>.</p>');
   }
   loadArtwork();
   const menu = document.querySelector('.menu'); const nav = document.querySelector('#navigation');
