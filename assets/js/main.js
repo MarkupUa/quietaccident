@@ -12,8 +12,9 @@
   const releases = (window.QA_RELEASES || []).filter(r => r.published === true).sort((a,b) => b.releaseDate.localeCompare(a.releaseDate));
   const escape = s => String(s).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
   const date = s => new Date(s + 'T12:00:00Z').toLocaleDateString(uk ? 'uk-UA' : 'en-GB',{day:'numeric',month:'long',year:'numeric',timeZone:'UTC'});
+  const title = r => uk ? (r.titleUk || t(r.title)) : r.title;
   const url = r => `${uk ? '/ua' : ''}/releases/${r.slug}/`;
-  const art = r => `<div class="artwork"><div class="art-placeholder" hidden><small>QUIET ACCIDENT</small><strong>${escape(r.title)}</strong><small class="art-label">SINGLE / ${r.releaseDate.slice(0,4)} · ARTWORK PENDING</small></div><img src="${root + escape(r.artwork)}" alt="${escape(r.title)} — official single artwork" width="1254" height="1254" loading="lazy" decoding="async"></div>`;
+  const art = r => `<div class="artwork"><div class="art-placeholder" hidden><small>QUIET ACCIDENT</small><strong>${escape(title(r))}</strong><small class="art-label">SINGLE / ${r.releaseDate.slice(0,4)} · ARTWORK PENDING</small></div><img src="${root + escape(r.artwork)}" alt="${escape(title(r))} — official single artwork" width="1254" height="1254" loading="lazy" decoding="async"></div>`;
   function loadArtwork(scope = document) {
     scope.querySelectorAll('.artwork img').forEach(img => {
       const show = () => { img.hidden = false; img.previousElementSibling.hidden = true; };
@@ -28,10 +29,10 @@
   }
   document.querySelectorAll('[data-release-grid]').forEach(grid => {
     const catalogue = grid.hasAttribute('data-home-catalogue') ? releases.slice(1, 4) : releases;
-    grid.innerHTML = localized(catalogue.map(r => `<a class="release-card" href="${url(r)}">${art(r)}<div class="card-info"><div><h3>${escape(r.title)}</h3><time class="date" datetime="${r.releaseDate}">${date(r.releaseDate)}</time></div><span class="card-arrow" aria-hidden="true">↗</span></div><span class="text-link">View Release</span></a>`).join(''));
+    grid.innerHTML = localized(catalogue.map(r => `<a class="release-card" href="${url(r)}">${art(r)}<div class="card-info"><div><h3>${escape(title(r))}</h3><time class="date" datetime="${r.releaseDate}">${date(r.releaseDate)}</time></div><span class="card-arrow" aria-hidden="true">↗</span></div><span class="text-link">View Release</span></a>`).join(''));
   });
   const latest = document.querySelector('[data-latest]');
-  if(latest && releases.length){const r = releases[0];latest.innerHTML = localized(`<a href="${url(r)}" aria-label="View ${escape(r.title)}">${art(r)}</a><div class="latest-copy"><p class="eyebrow red">${r.releaseDate > new Date().toISOString().slice(0,10) ? 'Upcoming release' : 'Latest release'} / Single</p><h2>${escape(r.title)}</h2><p class="date"><time datetime="${r.releaseDate}">${date(r.releaseDate)}</time></p><p class="lede">${escape(uk ? (r.descriptionUk || t(r.description)) : r.description)}</p><a class="button" href="${url(r)}">View Release <span aria-hidden="true">↗</span></a></div>`);}
+  if(latest && releases.length){const r = releases[0];latest.innerHTML = localized(`<a href="${url(r)}" aria-label="View ${escape(title(r))}">${art(r)}</a><div class="latest-copy"><p class="eyebrow red">${r.releaseDate > new Date().toISOString().slice(0,10) ? 'Upcoming release' : 'Latest release'} / Single</p><h2>${escape(title(r))}</h2><p class="date"><time datetime="${r.releaseDate}">${date(r.releaseDate)}</time></p><p class="lede">${escape(uk ? (r.descriptionUk || t(r.description)) : r.description)}</p><a class="button" href="${url(r)}">View Release <span aria-hidden="true">↗</span></a></div>`);}
   const icons = {
     Spotify:'<circle cx="12" cy="12" r="11"/><path d="M6 9q6-3 12 1M7 12q5-2 10 1M8 15q4-1 8 1" fill="none" stroke="#121214" stroke-width="1.5" stroke-linecap="round"/>',
     'Apple Music':'<path d="M9 5v11a3 3 0 1 0 2 3V9l8-2v7a3 3 0 1 0 2 3V2z"/>',
