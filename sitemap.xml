@@ -1,179 +1,371 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://quietaccident.com/</loc>
-    <lastmod>2026-11-15</lastmod>
+    <lastmod>2026-11-17</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://quietaccident.com/" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://quietaccident.com/ua/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://quietaccident.com/" />
     <image:image>
       <image:loc>https://quietaccident.com/assets/images/banner_3.png</image:loc>
-      <image:title>Quiet Accident — dark electronic music for the road after dark</image:title>
     </image:image>
   </url>
   <url>
     <loc>https://quietaccident.com/about/</loc>
-    <lastmod>2026-11-15</lastmod>
+    <lastmod>2026-11-17</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://quietaccident.com/about/" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://quietaccident.com/ua/about/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://quietaccident.com/about/" />
     <image:image>
       <image:loc>https://quietaccident.com/assets/images/logo_sqr_small.png</image:loc>
-      <image:title>Quiet Accident official metallic emblem</image:title>
     </image:image>
   </url>
   <url>
     <loc>https://quietaccident.com/releases/</loc>
-    <lastmod>2026-11-15</lastmod>
+    <lastmod>2026-11-17</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://quietaccident.com/releases/" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://quietaccident.com/ua/releases/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://quietaccident.com/releases/" />
     <image:image>
       <image:loc>https://quietaccident.com/assets/images/banner_3.png</image:loc>
-      <image:title>Quiet Accident official releases</image:title>
     </image:image>
   </url>
   <url>
     <loc>https://quietaccident.com/releases/black-ice/</loc>
-    <lastmod>2026-11-15</lastmod>
+    <lastmod>2026-11-17</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://quietaccident.com/releases/black-ice/" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://quietaccident.com/ua/releases/black-ice/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://quietaccident.com/releases/black-ice/" />
     <image:image>
       <image:loc>https://quietaccident.com/assets/images/releases/Black_Ice.png</image:loc>
-      <image:title>Black Ice by Quiet Accident — official single artwork</image:title>
     </image:image>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/jYDGeEcymKE/maxresdefault.jpg</video:thumbnail_loc>
+      <video:title>Quiet Accident – BLACK ICE | Dark Driving Techno / Night Drive Music (Official Visualizer)</video:title>
+      <video:description>BLACK ICE is a dark driving techno track built for wet highways, cold tunnels and late-night speed. Deep bass, metallic tension and short Ukrainian vocal fragments turn the road into a hypnotic, dangerous pulse.</video:description>
+      <video:player_loc>https://www.youtube-nocookie.com/embed/jYDGeEcymKE</video:player_loc>
+      <video:duration>215</video:duration>
+      <video:publication_date>2026-10-28T04:30:55-07:00</video:publication_date>
+    </video:video>
   </url>
   <url>
     <loc>https://quietaccident.com/releases/chervona-zona/</loc>
-    <lastmod>2026-11-15</lastmod>
+    <lastmod>2026-11-17</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://quietaccident.com/releases/chervona-zona/" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://quietaccident.com/ua/releases/chervona-zona/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://quietaccident.com/releases/chervona-zona/" />
     <image:image>
       <image:loc>https://quietaccident.com/assets/images/releases/Chervona_Zona.png</image:loc>
-      <image:title>Chervona Zona by Quiet Accident — official single artwork</image:title>
     </image:image>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/0_AihCYqkCM/maxresdefault.jpg</video:thumbnail_loc>
+      <video:title>Quiet Accident – Chervona Zona (Official Visualizer) | Dark Driving Techno</video:title>
+      <video:description>Chervona Zona is a dark driving techno track built for the moment when the road disappears into the night and only speed, pressure and rhythm remain.</video:description>
+      <video:player_loc>https://www.youtube-nocookie.com/embed/0_AihCYqkCM</video:player_loc>
+      <video:duration>248</video:duration>
+      <video:publication_date>2026-11-13T08:00:34-08:00</video:publication_date>
+    </video:video>
   </url>
   <url>
     <loc>https://quietaccident.com/releases/dodai-vohniu/</loc>
-    <lastmod>2026-11-15</lastmod>
+    <lastmod>2026-11-17</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://quietaccident.com/releases/dodai-vohniu/" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://quietaccident.com/ua/releases/dodai-vohniu/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://quietaccident.com/releases/dodai-vohniu/" />
     <image:image>
       <image:loc>https://quietaccident.com/assets/images/releases/Dodai_Vohniu.png</image:loc>
-      <image:title>Dodai Vohniu by Quiet Accident — official single artwork</image:title>
     </image:image>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/C_7uz-kzZC8/maxresdefault.jpg</video:thumbnail_loc>
+      <video:title>Quiet Accident – Dodai Vohniu (Додай вогню) | Dark Electronic Night Drive [Official Visualizer]</video:title>
+      <video:description>Dark electronic pressure, syncopated rhythm, heavy bass and Ukrainian vocals. “Dodai Vohniu” is a night-drive track built for speed, neon streets and forward motion.</video:description>
+      <video:player_loc>https://www.youtube-nocookie.com/embed/C_7uz-kzZC8</video:player_loc>
+      <video:duration>210</video:duration>
+      <video:publication_date>2026-11-06T08:00:06-08:00</video:publication_date>
+    </video:video>
   </url>
   <url>
     <loc>https://quietaccident.com/releases/halia-drift/</loc>
-    <lastmod>2026-11-15</lastmod>
+    <lastmod>2026-11-17</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://quietaccident.com/releases/halia-drift/" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://quietaccident.com/ua/releases/halia-drift/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://quietaccident.com/releases/halia-drift/" />
     <image:image>
       <image:loc>https://quietaccident.com/assets/images/releases/Halia_Drift.png</image:loc>
-      <image:title>Halia Drift by Quiet Accident — official single artwork</image:title>
     </image:image>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/YDt_yb-Kvrg/maxresdefault.jpg</video:thumbnail_loc>
+      <video:title>Halia Drift — Real Drift Footage | Quiet Accident (Official Music Video)</video:title>
+      <video:description>HALIA DRIFT turns the Ukrainian folk melody “Nese Halia Vodu” into a dark electronic track built for sideways turns. Heavy bass, sharp synths and short Ukrainian vocal lines cut through the tire smoke.</video:description>
+      <video:player_loc>https://www.youtube-nocookie.com/embed/YDt_yb-Kvrg</video:player_loc>
+      <video:duration>209</video:duration>
+      <video:publication_date>2026-10-16T08:00:34-07:00</video:publication_date>
+    </video:video>
   </url>
   <url>
     <loc>https://quietaccident.com/releases/midnight-shchedryk/</loc>
-    <lastmod>2026-11-15</lastmod>
+    <lastmod>2026-11-17</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://quietaccident.com/releases/midnight-shchedryk/" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://quietaccident.com/ua/releases/midnight-shchedryk/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://quietaccident.com/releases/midnight-shchedryk/" />
     <image:image>
       <image:loc>https://quietaccident.com/assets/images/releases/Midnight-Shchedryk.png</image:loc>
-      <image:title>Midnight Shchedryk by Quiet Accident — official single artwork</image:title>
     </image:image>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/EBTvaOO0NK0/maxresdefault.jpg</video:thumbnail_loc>
+      <video:title>Quiet Accident — Midnight Shchedryk (Official Visualizer)</video:title>
+      <video:description>Midnight Shchedryk turns a haunting Ukrainian four-note motif into dark, cinematic driving techno — deep bass, cold synths, night-road tension and a powerful final drop.</video:description>
+      <video:player_loc>https://www.youtube-nocookie.com/embed/EBTvaOO0NK0</video:player_loc>
+      <video:duration>221</video:duration>
+      <video:publication_date>2026-10-09T08:00:14-07:00</video:publication_date>
+    </video:video>
   </url>
   <url>
     <loc>https://quietaccident.com/releases/neon-between-us/</loc>
-    <lastmod>2026-11-15</lastmod>
+    <lastmod>2026-11-17</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://quietaccident.com/releases/neon-between-us/" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://quietaccident.com/ua/releases/neon-between-us/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://quietaccident.com/releases/neon-between-us/" />
     <image:image>
       <image:loc>https://quietaccident.com/assets/images/releases/Neon_Between_Us.png</image:loc>
-      <image:title>Neon Between Us by Quiet Accident — official single artwork</image:title>
+    </image:image>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/SzwJ9P8LPYA/maxresdefault.jpg</video:thumbnail_loc>
+      <video:title>Neon Between Us — Dark Techno Night Drive | Official Visualizer</video:title>
+      <video:description>Heavy, sensual night-drive techno. Deep bass, dark neon, rain on glass and a few whispered Ukrainian phrases. Neon Between Us is built on tension, space and the feeling of someone sitting just a little too close.</video:description>
+      <video:player_loc>https://www.youtube-nocookie.com/embed/SzwJ9P8LPYA</video:player_loc>
+      <video:duration>182</video:duration>
+      <video:publication_date>2026-10-30T09:00:22-07:00</video:publication_date>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://quietaccident.com/releases/night-pulse/</loc>
+    <lastmod>2026-11-17</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://quietaccident.com/releases/night-pulse/" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://quietaccident.com/ua/releases/night-pulse/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://quietaccident.com/releases/night-pulse/" />
+    <image:image>
+      <image:loc>https://quietaccident.com/assets/images/releases/Night_Pulse.png</image:loc>
     </image:image>
   </url>
   <url>
     <loc>https://quietaccident.com/releases/night-vector/</loc>
-    <lastmod>2026-11-15</lastmod>
+    <lastmod>2026-11-17</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://quietaccident.com/releases/night-vector/" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://quietaccident.com/ua/releases/night-vector/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://quietaccident.com/releases/night-vector/" />
     <image:image>
       <image:loc>https://quietaccident.com/assets/images/releases/Night_Vector.png</image:loc>
-      <image:title>Night Vector by Quiet Accident — official single artwork</image:title>
     </image:image>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/WHtL5YUZwuQ/maxresdefault.jpg</video:thumbnail_loc>
+      <video:title>Quiet Accident — Night Vector (Official Visualizer)</video:title>
+      <video:description>Night roads. City lights. Forward motion. Night Vector — the first release from Quiet Accident.</video:description>
+      <video:player_loc>https://www.youtube-nocookie.com/embed/WHtL5YUZwuQ</video:player_loc>
+      <video:duration>239</video:duration>
+      <video:publication_date>2026-09-25T09:00:21-07:00</video:publication_date>
+    </video:video>
   </url>
   <url>
     <loc>https://quietaccident.com/releases/street-mode/</loc>
-    <lastmod>2026-11-15</lastmod>
+    <lastmod>2026-11-17</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://quietaccident.com/releases/street-mode/" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://quietaccident.com/ua/releases/street-mode/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://quietaccident.com/releases/street-mode/" />
     <image:image>
       <image:loc>https://quietaccident.com/assets/images/releases/STREET_MODE.png</image:loc>
-      <image:title>STREET MODE by Quiet Accident — official single artwork</image:title>
     </image:image>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/ZVFp8PRoq2c/maxresdefault.jpg</video:thumbnail_loc>
+      <video:title>Quiet Accident — STREET MODE (Official Visualizer)</video:title>
+      <video:description>Step into the after-dark world of Quiet Accident. STREET MODE is out now.</video:description>
+      <video:player_loc>https://www.youtube-nocookie.com/embed/ZVFp8PRoq2c</video:player_loc>
+      <video:duration>219</video:duration>
+      <video:publication_date>2026-10-02T08:00:06-07:00</video:publication_date>
+    </video:video>
   </url>
   <url>
     <loc>https://quietaccident.com/ua/about/</loc>
-    <lastmod>2026-11-15</lastmod>
+    <lastmod>2026-11-17</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://quietaccident.com/about/" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://quietaccident.com/ua/about/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://quietaccident.com/about/" />
     <image:image>
       <image:loc>https://quietaccident.com/assets/images/logo_sqr_small.png</image:loc>
-      <image:title>Quiet Accident official metallic emblem</image:title>
     </image:image>
   </url>
   <url>
     <loc>https://quietaccident.com/ua/</loc>
-    <lastmod>2026-11-15</lastmod>
+    <lastmod>2026-11-17</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://quietaccident.com/" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://quietaccident.com/ua/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://quietaccident.com/" />
     <image:image>
       <image:loc>https://quietaccident.com/assets/images/banner_3.png</image:loc>
-      <image:title>Quiet Accident — Dark Techno для нічних доріг</image:title>
     </image:image>
   </url>
   <url>
     <loc>https://quietaccident.com/ua/releases/black-ice/</loc>
-    <lastmod>2026-11-15</lastmod>
+    <lastmod>2026-11-17</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://quietaccident.com/releases/black-ice/" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://quietaccident.com/ua/releases/black-ice/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://quietaccident.com/releases/black-ice/" />
     <image:image>
       <image:loc>https://quietaccident.com/assets/images/releases/Black_Ice.png</image:loc>
-      <image:title>Black Ice by Quiet Accident — офіційна обкладинка синглу</image:title>
     </image:image>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/jYDGeEcymKE/maxresdefault.jpg</video:thumbnail_loc>
+      <video:title>Quiet Accident — BLACK ICE | Dark Techno для нічних поїздок (Офіційний візуалайзер)</video:title>
+      <video:description>BLACK ICE — трек у стилі Dark Techno для мокрих автострад, холодних тунелів і нічного руху. Глибокий бас, металева напруга та короткі українські вокальні фрагменти перетворюють дорогу на гіпнотичний, небезпечний пульс.</video:description>
+      <video:player_loc>https://www.youtube-nocookie.com/embed/jYDGeEcymKE</video:player_loc>
+      <video:duration>215</video:duration>
+      <video:publication_date>2026-10-28T04:30:55-07:00</video:publication_date>
+    </video:video>
   </url>
   <url>
     <loc>https://quietaccident.com/ua/releases/chervona-zona/</loc>
-    <lastmod>2026-11-15</lastmod>
+    <lastmod>2026-11-17</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://quietaccident.com/releases/chervona-zona/" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://quietaccident.com/ua/releases/chervona-zona/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://quietaccident.com/releases/chervona-zona/" />
     <image:image>
       <image:loc>https://quietaccident.com/assets/images/releases/Chervona_Zona.png</image:loc>
-      <image:title>Червона зона by Quiet Accident — офіційна обкладинка синглу</image:title>
     </image:image>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/0_AihCYqkCM/maxresdefault.jpg</video:thumbnail_loc>
+      <video:title>Quiet Accident — Червона зона (Офіційний візуалайзер) | Dark Techno</video:title>
+      <video:description>«Червона зона» — трек у стилі Dark Techno для тієї миті, коли дорога зникає в ночі й залишаються лише швидкість, напруга та ритм.</video:description>
+      <video:player_loc>https://www.youtube-nocookie.com/embed/0_AihCYqkCM</video:player_loc>
+      <video:duration>248</video:duration>
+      <video:publication_date>2026-11-13T08:00:34-08:00</video:publication_date>
+    </video:video>
   </url>
   <url>
     <loc>https://quietaccident.com/ua/releases/dodai-vohniu/</loc>
-    <lastmod>2026-11-15</lastmod>
+    <lastmod>2026-11-17</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://quietaccident.com/releases/dodai-vohniu/" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://quietaccident.com/ua/releases/dodai-vohniu/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://quietaccident.com/releases/dodai-vohniu/" />
     <image:image>
       <image:loc>https://quietaccident.com/assets/images/releases/Dodai_Vohniu.png</image:loc>
-      <image:title>Додай вогню by Quiet Accident — офіційна обкладинка синглу</image:title>
     </image:image>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/C_7uz-kzZC8/maxresdefault.jpg</video:thumbnail_loc>
+      <video:title>Quiet Accident — Додай вогню | Dark Techno для нічних поїздок [Офіційний візуалайзер]</video:title>
+      <video:description>Напір Dark Techno, синкопований ритм, потужний бас та український вокал. «Додай вогню» — трек для нічних поїздок, швидкості, неонових вулиць і руху вперед.</video:description>
+      <video:player_loc>https://www.youtube-nocookie.com/embed/C_7uz-kzZC8</video:player_loc>
+      <video:duration>210</video:duration>
+      <video:publication_date>2026-11-06T08:00:06-08:00</video:publication_date>
+    </video:video>
   </url>
   <url>
     <loc>https://quietaccident.com/ua/releases/halia-drift/</loc>
-    <lastmod>2026-11-15</lastmod>
+    <lastmod>2026-11-17</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://quietaccident.com/releases/halia-drift/" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://quietaccident.com/ua/releases/halia-drift/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://quietaccident.com/releases/halia-drift/" />
     <image:image>
       <image:loc>https://quietaccident.com/assets/images/releases/Halia_Drift.png</image:loc>
-      <image:title>Halia Drift by Quiet Accident — офіційна обкладинка синглу</image:title>
     </image:image>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/YDt_yb-Kvrg/maxresdefault.jpg</video:thumbnail_loc>
+      <video:title>Halia Drift — Реальні кадри дрифту | Quiet Accident (Офіційне музичне відео)</video:title>
+      <video:description>HALIA DRIFT перетворює українську народну мелодію «Несе Галя воду» на трек у стилі Dark Techno, створений для дрифту. Важкий бас, гострі синтезатори та короткі українські вокальні фрази прорізають дим від шин.</video:description>
+      <video:player_loc>https://www.youtube-nocookie.com/embed/YDt_yb-Kvrg</video:player_loc>
+      <video:duration>209</video:duration>
+      <video:publication_date>2026-10-16T08:00:34-07:00</video:publication_date>
+    </video:video>
   </url>
   <url>
     <loc>https://quietaccident.com/ua/releases/</loc>
-    <lastmod>2026-11-15</lastmod>
+    <lastmod>2026-11-17</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://quietaccident.com/releases/" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://quietaccident.com/ua/releases/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://quietaccident.com/releases/" />
     <image:image>
       <image:loc>https://quietaccident.com/assets/images/banner_3.png</image:loc>
-      <image:title>Офіційні релізи Quiet Accident</image:title>
     </image:image>
   </url>
   <url>
     <loc>https://quietaccident.com/ua/releases/midnight-shchedryk/</loc>
-    <lastmod>2026-11-15</lastmod>
+    <lastmod>2026-11-17</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://quietaccident.com/releases/midnight-shchedryk/" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://quietaccident.com/ua/releases/midnight-shchedryk/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://quietaccident.com/releases/midnight-shchedryk/" />
     <image:image>
       <image:loc>https://quietaccident.com/assets/images/releases/Midnight-Shchedryk.png</image:loc>
-      <image:title>Midnight Shchedryk by Quiet Accident — офіційна обкладинка синглу</image:title>
     </image:image>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/EBTvaOO0NK0/maxresdefault.jpg</video:thumbnail_loc>
+      <video:title>Quiet Accident — Midnight Shchedryk (Офіційний візуалайзер)</video:title>
+      <video:description>Midnight Shchedryk перетворює впізнаваний український мотив із чотирьох нот на кінематографічний Dark Techno — глибокий бас, холодні синтезатори, напруга нічної дороги та потужний фінальний дроп.</video:description>
+      <video:player_loc>https://www.youtube-nocookie.com/embed/EBTvaOO0NK0</video:player_loc>
+      <video:duration>221</video:duration>
+      <video:publication_date>2026-10-09T08:00:14-07:00</video:publication_date>
+    </video:video>
   </url>
   <url>
     <loc>https://quietaccident.com/ua/releases/neon-between-us/</loc>
-    <lastmod>2026-11-15</lastmod>
+    <lastmod>2026-11-17</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://quietaccident.com/releases/neon-between-us/" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://quietaccident.com/ua/releases/neon-between-us/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://quietaccident.com/releases/neon-between-us/" />
     <image:image>
       <image:loc>https://quietaccident.com/assets/images/releases/Neon_Between_Us.png</image:loc>
-      <image:title>Neon Between Us by Quiet Accident — офіційна обкладинка синглу</image:title>
+    </image:image>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/SzwJ9P8LPYA/maxresdefault.jpg</video:thumbnail_loc>
+      <video:title>Neon Between Us — Dark Techno для нічних поїздок | Офіційний візуалайзер</video:title>
+      <video:description>Важке, чуттєве техно для нічних поїздок. Глибокий бас, приглушений неон, дощ на склі та кілька українських фраз пошепки. Neon Between Us — це напруга, простір і відчуття, ніби хтось сидить зовсім поруч.</video:description>
+      <video:player_loc>https://www.youtube-nocookie.com/embed/SzwJ9P8LPYA</video:player_loc>
+      <video:duration>182</video:duration>
+      <video:publication_date>2026-10-30T09:00:22-07:00</video:publication_date>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://quietaccident.com/ua/releases/night-pulse/</loc>
+    <lastmod>2026-11-17</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://quietaccident.com/releases/night-pulse/" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://quietaccident.com/ua/releases/night-pulse/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://quietaccident.com/releases/night-pulse/" />
+    <image:image>
+      <image:loc>https://quietaccident.com/assets/images/releases/Night_Pulse.png</image:loc>
     </image:image>
   </url>
   <url>
     <loc>https://quietaccident.com/ua/releases/night-vector/</loc>
-    <lastmod>2026-11-15</lastmod>
+    <lastmod>2026-11-17</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://quietaccident.com/releases/night-vector/" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://quietaccident.com/ua/releases/night-vector/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://quietaccident.com/releases/night-vector/" />
     <image:image>
       <image:loc>https://quietaccident.com/assets/images/releases/Night_Vector.png</image:loc>
-      <image:title>Night Vector by Quiet Accident — офіційна обкладинка синглу</image:title>
     </image:image>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/WHtL5YUZwuQ/maxresdefault.jpg</video:thumbnail_loc>
+      <video:title>Quiet Accident — Night Vector (Офіційний візуалайзер)</video:title>
+      <video:description>Нічні дороги. Вогні міста. Рух уперед. Night Vector — перший реліз Quiet Accident.</video:description>
+      <video:player_loc>https://www.youtube-nocookie.com/embed/WHtL5YUZwuQ</video:player_loc>
+      <video:duration>239</video:duration>
+      <video:publication_date>2026-09-25T09:00:21-07:00</video:publication_date>
+    </video:video>
   </url>
   <url>
     <loc>https://quietaccident.com/ua/releases/street-mode/</loc>
-    <lastmod>2026-11-15</lastmod>
+    <lastmod>2026-11-17</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://quietaccident.com/releases/street-mode/" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://quietaccident.com/ua/releases/street-mode/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://quietaccident.com/releases/street-mode/" />
     <image:image>
       <image:loc>https://quietaccident.com/assets/images/releases/STREET_MODE.png</image:loc>
-      <image:title>STREET MODE by Quiet Accident — офіційна обкладинка синглу</image:title>
     </image:image>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/ZVFp8PRoq2c/maxresdefault.jpg</video:thumbnail_loc>
+      <video:title>Quiet Accident — STREET MODE (Офіційний візуалайзер)</video:title>
+      <video:description>Поринь у нічний світ Quiet Accident. STREET MODE вже доступний для прослуховування.</video:description>
+      <video:player_loc>https://www.youtube-nocookie.com/embed/ZVFp8PRoq2c</video:player_loc>
+      <video:duration>219</video:duration>
+      <video:publication_date>2026-10-02T08:00:06-07:00</video:publication_date>
+    </video:video>
   </url>
 </urlset>

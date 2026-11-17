@@ -17,8 +17,9 @@
   const art = r => `<div class="artwork"><div class="art-placeholder" hidden><small>QUIET ACCIDENT</small><strong>${escape(title(r))}</strong><small class="art-label">SINGLE / ${r.releaseDate.slice(0,4)} · ARTWORK PENDING</small></div><img src="${root + escape(r.artwork)}" alt="${escape(title(r))} — official single artwork" width="1254" height="1254" loading="lazy" decoding="async"></div>`;
   function loadArtwork(scope = document) {
     scope.querySelectorAll('.artwork img').forEach(img => {
-      const show = () => { img.hidden = false; img.previousElementSibling.hidden = true; };
-      const fallback = () => { img.hidden = true; img.previousElementSibling.hidden = false; };
+      const placeholder = img.previousElementSibling;
+      const show = () => { img.hidden = false; if (placeholder) placeholder.hidden = true; };
+      const fallback = () => { if (placeholder) { img.hidden = true; placeholder.hidden = false; } };
       img.addEventListener('load',show,{once:true});
       img.addEventListener('error',fallback,{once:true});
       if(img.complete) {
@@ -28,11 +29,14 @@
     });
   }
   document.querySelectorAll('[data-release-grid]').forEach(grid => {
+    // Static HTML is authoritative; stale catalogue scripts must not erase it.
+    if (grid.querySelector('.release-card')) return;
+    const heading = grid.hasAttribute('data-home-catalogue') ? 'h3' : 'h2';
     const catalogue = grid.hasAttribute('data-home-catalogue') ? releases.slice(1, 4) : releases;
-    grid.innerHTML = localized(catalogue.map(r => `<a class="release-card" href="${url(r)}">${art(r)}<div class="card-info"><div><h3>${escape(title(r))}</h3><time class="date" datetime="${r.releaseDate}">${date(r.releaseDate)}</time></div><span class="card-arrow" aria-hidden="true">↗</span></div><span class="text-link">View Release</span></a>`).join(''));
+    grid.innerHTML = localized(catalogue.map(r => `<a class="release-card" href="${url(r)}">${art(r)}<div class="card-info"><div><${heading}>${escape(title(r))}</${heading}><time class="date" datetime="${r.releaseDate}">${date(r.releaseDate)}</time></div><span class="card-arrow" aria-hidden="true">↗</span></div><span class="text-link">View Release</span></a>`).join(''));
   });
   const latest = document.querySelector('[data-latest]');
-  if(latest && releases.length){const r = releases[0];latest.innerHTML = localized(`<a href="${url(r)}" aria-label="View ${escape(title(r))}">${art(r)}</a><div class="latest-copy"><p class="eyebrow red">${r.releaseDate > new Date().toISOString().slice(0,10) ? 'Upcoming release' : 'Latest release'} / Single</p><h2>${escape(title(r))}</h2><p class="date"><time datetime="${r.releaseDate}">${date(r.releaseDate)}</time></p><p class="lede">${escape(uk ? (r.descriptionUk || t(r.description)) : r.description)}</p><a class="button" href="${url(r)}">View Release <span aria-hidden="true">↗</span></a></div>`);}
+  if(latest && !latest.querySelector('h2') && releases.length){const r = releases[0];latest.innerHTML = localized(`<a href="${url(r)}" aria-label="View ${escape(title(r))}">${art(r)}</a><div class="latest-copy"><p class="eyebrow red">${r.releaseDate > new Date().toISOString().slice(0,10) ? 'Upcoming release' : 'Latest release'} / Single</p><h2>${escape(title(r))}</h2><p class="date"><time datetime="${r.releaseDate}">${date(r.releaseDate)}</time></p><p class="lede">${escape(uk ? (r.descriptionUk || t(r.description)) : r.description)}</p><a class="button" href="${url(r)}">View Release <span aria-hidden="true">↗</span></a></div>`);}
   const icons = {
     Spotify:'<circle cx="12" cy="12" r="11"/><path d="M6 9q6-3 12 1M7 12q5-2 10 1M8 15q4-1 8 1" fill="none" stroke="#121214" stroke-width="1.5" stroke-linecap="round"/>',
     'Apple Music':'<path d="M9 5v11a3 3 0 1 0 2 3V9l8-2v7a3 3 0 1 0 2 3V2z"/>',
@@ -46,7 +50,18 @@
   if(release && platforms){
     const services = [['Spotify Pre-Save','preSaveUrl'],['Amazon Music','amazonMusicUrl'],['Spotify','spotifyUrl'],['YouTube Music','youtubeMusicUrl'],['Apple Music','appleMusicUrl'],['iTunes','itunesUrl'],['Deezer','deezerUrl']];
     const links = services.filter(([,key]) => /^https:\/\//.test(release[key] || ''));
-    platforms.innerHTML = localized(links.length ? links.map(([name,key]) => `<a class="platform" href="${escape(release[key])}" target="_blank" rel="noopener noreferrer"><svg viewBox="0 0 24 24" aria-hidden="true">${icons[name === 'Spotify Pre-Save' ? 'Spotify' : name]}</svg><span>${name}</span><span class="arrow" aria-hidden="true">↗</span><span class="sr-only"> (opens in a new tab)</span></a>`).join('') : '<p class="empty-platforms">Streaming links for this single will be added here. Explore Quiet Accident on <a class="text-link" href="https://open.spotify.com/artist/0Uoyw8HMxfw0RG67OHzQJS" target="_blank" rel="noopener noreferrer">Spotify ↗</a>.</p>');
+    const staticLinks = platforms.querySelectorAll('a.platform');
+    if (staticLinks.length) {
+      staticLinks.forEach(link => {
+        if (link.querySelector('svg')) return;
+        const service = services.find(([name, key]) => release[key] === link.href);
+        if (!service) return;
+        const name = service[0] === 'Spotify Pre-Save' ? 'Spotify' : service[0];
+        link.insertAdjacentHTML('afterbegin', `<svg viewBox="0 0 24 24" aria-hidden="true">${icons[name]}</svg>`);
+      });
+    } else {
+      platforms.innerHTML = localized(links.length ? links.map(([name,key]) => `<a class="platform" href="${escape(release[key])}" target="_blank" rel="noopener noreferrer"><svg viewBox="0 0 24 24" aria-hidden="true">${icons[name === 'Spotify Pre-Save' ? 'Spotify' : name]}</svg><span>${name}</span><span class="arrow" aria-hidden="true">↗</span><span class="sr-only"> (opens in a new tab)</span></a>`).join('') : '<p class="empty-platforms">Streaming links for this single will be added here. Explore Quiet Accident on <a class="text-link" href="https://open.spotify.com/artist/0Uoyw8HMxfw0RG67OHzQJS" target="_blank" rel="noopener noreferrer">Spotify ↗</a>.</p>');
+    }
   }
   loadArtwork();
   const menu = document.querySelector('.menu'); const nav = document.querySelector('#navigation');

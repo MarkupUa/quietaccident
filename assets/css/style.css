@@ -12,3 +12,5 @@
 .header-inner>.language-switch{border-left:1px solid var(--line);padding-left:16px}@media(max-width:649px){.header-inner>.language-switch{border-left:0;border-right:1px solid var(--line);padding-left:0;padding-right:12px}}
 
 .release-facts{display:flex;flex-wrap:wrap;gap:16px 32px;margin:24px 0}.release-facts dt{font-size:11px;color:var(--muted);margin-bottom:4px}.release-facts dd{margin:0;font-size:14px}.project-facts{padding-block:48px;border-bottom:1px solid var(--line)}.project-facts h2{font-size:clamp(28px,4vw,42px)}.project-facts p{max-width:760px;color:var(--muted)}.project-facts .text-link{font-size:inherit;white-space:normal}
+
+.card-info h2{font-size:21px;letter-spacing:-.02em;margin-bottom:8px}.catalog-grid .card-info h2{font-size:18px;line-height:1.25;overflow-wrap:anywhere}.breadcrumb a:hover{color:var(--red)}.release-siblings{display:flex;flex-wrap:wrap;gap:20px 32px;width:100%;border-top:1px solid var(--line);padding-top:24px}.release-siblings a{display:grid;gap:6px;min-width:150px}.release-siblings span{color:var(--muted);font-size:11px}.release-siblings strong{font-size:14px;font-weight:600}.release-siblings a:hover strong{color:var(--red)}

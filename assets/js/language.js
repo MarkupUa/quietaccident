@@ -6,10 +6,18 @@
   const requested = new URLSearchParams(location.search).get('lang');
   let saved;
   try { saved = localStorage.getItem(key); } catch {}
-  if (requested === 'en' || requested === 'uk') { saved = requested; try { localStorage.setItem(key, requested); } catch {} }
-  const preferred = saved === 'en' || saved === 'uk' ? saved : /^uk(?:-|$)/i.test(navigator.language || '') ? 'uk' : 'en';
-  // Direct Ukrainian URLs remain shareable; automatic detection applies on English routes.
-  if (!uk && preferred === 'uk') location.replace('/ua' + base + location.search + location.hash);
+  if (requested === 'en' || requested === 'uk') {
+    saved = requested;
+    try { localStorage.setItem(key, requested); } catch {}
+  }
+  const primary = navigator.languages?.[0] || navigator.language || 'en';
+  const preferred = saved === 'en' || saved === 'uk' ? saved : /^uk(?:-|$)/i.test(primary) ? 'uk' : 'en';
+  // Detect language at the home entry point. Direct language URLs stay accessible
+  // to every visitor and crawler, independent of browser preferences or storage.
+  const homeEntry = location.pathname === '/' || location.pathname === '/index.html';
+  if (!uk && preferred === 'uk' && (homeEntry || requested === 'uk')) {
+    location.replace('/ua' + (homeEntry ? '/' : base) + location.search + location.hash);
+  }
   document.addEventListener('click', event => {
     const link = event.target.closest('[data-language]');
     if (!link || event.ctrlKey || event.metaKey || event.shiftKey || event.altKey || event.button !== 0) return;
