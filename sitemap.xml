@@ -147,6 +147,14 @@
     <image:image>
       <image:loc>https://quietaccident.com/assets/images/releases/Night_Pulse.png</image:loc>
     </image:image>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/jP4mYs85ulw/maxresdefault.jpg</video:thumbnail_loc>
+      <video:title>Quiet Accident – Nichnyi Puls (Нічний пульс) | Deep Bass Nightclub Music | Official Visualizer</video:title>
+      <video:description>Deep bass. Neon lights. Ukrainian vocals. “Nichnyi Puls” is a darker, more club-focused side of Quiet Accident — built on deep sub-bass, a smooth low-end groove, intimate Ukrainian vocals, and subtle echoes of Ukrainian folk melody.</video:description>
+      <video:player_loc>https://www.youtube-nocookie.com/embed/jP4mYs85ulw</video:player_loc>
+      <video:duration>200</video:duration>
+      <video:publication_date>2026-11-20T08:00:21-08:00</video:publication_date>
+    </video:video>
   </url>
   <url>
     <loc>https://quietaccident.com/releases/night-vector/</loc>
@@ -331,6 +339,14 @@
     <image:image>
       <image:loc>https://quietaccident.com/assets/images/releases/Night_Pulse.png</image:loc>
     </image:image>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/jP4mYs85ulw/maxresdefault.jpg</video:thumbnail_loc>
+      <video:title>Quiet Accident — Нічний пульс | Глибокий бас і клубна музика | Офіційний візуалайзер</video:title>
+      <video:description>Глибокий бас. Неонові вогні. Український вокал. «Нічний пульс» відкриває більш похмурий, клубний бік Quiet Accident — глибокий саббас, плавний басовий грув, інтимний український вокал і ледь помітні відлуння української народної мелодії.</video:description>
+      <video:player_loc>https://www.youtube-nocookie.com/embed/jP4mYs85ulw</video:player_loc>
+      <video:duration>200</video:duration>
+      <video:publication_date>2026-11-20T08:00:21-08:00</video:publication_date>
+    </video:video>
   </url>
   <url>
     <loc>https://quietaccident.com/ua/releases/night-vector/</loc>
