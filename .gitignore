@@ -1,0 +1,10 @@
+.nojekyll
+scripts/*
+!scripts/*.py
+!scripts/*.cjs
+README.md
+
+# Все скрытые папки проекта
+**/.*/
+AGENTS.md
+SEO_AUDIT.md

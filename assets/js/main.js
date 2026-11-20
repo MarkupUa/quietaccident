@@ -5,7 +5,7 @@
     if (!uk) return value;
     const dictionary = window.QA_TRANSLATIONS || {};
     if (dictionary[value]) return dictionary[value];
-    return value.replace('Upcoming release', 'Майбутній реліз').replace('Latest release', 'Новий реліз').replace(' / Single', ' / Сингл').replace(' — official single artwork', ' — офіційна обкладинка синглу').replace('SINGLE / ', 'СИНГЛ / ').replace('ARTWORK PENDING', 'ОБКЛАДИНКА НЕЗАБАРОМ').replace(/^View /, 'Переглянути ');
+    return value.replace('Upcoming release', 'Майбутній реліз').replace('Latest release', 'Новий реліз').replace(' / Single', ' / Сингл').replace(' — official single artwork', ' — офіційна обкладинка синглу').replace('SINGLE / ', 'СИНГЛ / ').replace(/^View /, 'Переглянути ');
   };
   const localized = markup => markup.replace(/>([^<]+)</g, (_, text) => '>' + text.replace(/\S[\s\S]*\S|\S/, value => t(value)) + '<').replace(/(alt|aria-label)="([^"]*)"/g, (_, key, value) => key + '="' + t(value) + '"');
   const root = document.body.dataset.root || './';
@@ -14,7 +14,7 @@
   const date = s => new Date(s + 'T12:00:00Z').toLocaleDateString(uk ? 'uk-UA' : 'en-GB',{day:'numeric',month:'long',year:'numeric',timeZone:'UTC'});
   const title = r => uk ? (r.titleUk || t(r.title)) : r.title;
   const url = r => `${uk ? '/ua' : ''}/releases/${r.slug}/`;
-  const art = r => `<div class="artwork"><div class="art-placeholder" hidden><small>QUIET ACCIDENT</small><strong>${escape(title(r))}</strong><small class="art-label">SINGLE / ${r.releaseDate.slice(0,4)} · ARTWORK PENDING</small></div><img src="${root + escape(r.artwork)}" alt="${escape(title(r))} — official single artwork" width="1254" height="1254" loading="lazy" decoding="async"></div>`;
+  const art = r => `<div class="artwork"><div class="art-placeholder" hidden><small>QUIET ACCIDENT</small><strong>${escape(title(r))}</strong><small class="art-label">SINGLE / ${r.releaseDate.slice(0,4)}</small></div><img src="${root + escape(r.artwork)}" alt="${escape(title(r))} — official single artwork" width="1254" height="1254" loading="lazy" decoding="async"></div>`;
   function loadArtwork(scope = document) {
     scope.querySelectorAll('.artwork img').forEach(img => {
       const placeholder = img.previousElementSibling;
