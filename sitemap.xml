@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://quietaccident.com/</loc>
-    <lastmod>2026-11-20</lastmod>
+    <lastmod>2026-11-24</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://quietaccident.com/" />
     <xhtml:link rel="alternate" hreflang="uk" href="https://quietaccident.com/ua/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://quietaccident.com/" />
@@ -22,7 +22,7 @@
   </url>
   <url>
     <loc>https://quietaccident.com/releases/</loc>
-    <lastmod>2026-11-20</lastmod>
+    <lastmod>2026-11-24</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://quietaccident.com/releases/" />
     <xhtml:link rel="alternate" hreflang="uk" href="https://quietaccident.com/ua/releases/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://quietaccident.com/releases/" />
@@ -140,7 +140,7 @@
   </url>
   <url>
     <loc>https://quietaccident.com/releases/night-pulse/</loc>
-    <lastmod>2026-11-20</lastmod>
+    <lastmod>2026-11-24</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://quietaccident.com/releases/night-pulse/" />
     <xhtml:link rel="alternate" hreflang="uk" href="https://quietaccident.com/ua/releases/night-pulse/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://quietaccident.com/releases/night-pulse/" />
@@ -175,6 +175,16 @@
     </video:video>
   </url>
   <url>
+    <loc>https://quietaccident.com/releases/pid-shkiroiu/</loc>
+    <lastmod>2026-11-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://quietaccident.com/releases/pid-shkiroiu/" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://quietaccident.com/ua/releases/pid-shkiroiu/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://quietaccident.com/releases/pid-shkiroiu/" />
+    <image:image>
+      <image:loc>https://quietaccident.com/assets/images/releases/Pid_Shkiroiu.png</image:loc>
+    </image:image>
+  </url>
+  <url>
     <loc>https://quietaccident.com/releases/street-mode/</loc>
     <lastmod>2026-11-20</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://quietaccident.com/releases/street-mode/" />
@@ -194,7 +204,7 @@
   </url>
   <url>
     <loc>https://quietaccident.com/ua/about/</loc>
-    <lastmod>2026-11-20</lastmod>
+    <lastmod>2026-11-24</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://quietaccident.com/about/" />
     <xhtml:link rel="alternate" hreflang="uk" href="https://quietaccident.com/ua/about/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://quietaccident.com/about/" />
@@ -204,7 +214,7 @@
   </url>
   <url>
     <loc>https://quietaccident.com/ua/</loc>
-    <lastmod>2026-11-20</lastmod>
+    <lastmod>2026-11-24</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://quietaccident.com/" />
     <xhtml:link rel="alternate" hreflang="uk" href="https://quietaccident.com/ua/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://quietaccident.com/" />
@@ -214,7 +224,7 @@
   </url>
   <url>
     <loc>https://quietaccident.com/ua/releases/black-ice/</loc>
-    <lastmod>2026-11-20</lastmod>
+    <lastmod>2026-11-24</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://quietaccident.com/releases/black-ice/" />
     <xhtml:link rel="alternate" hreflang="uk" href="https://quietaccident.com/ua/releases/black-ice/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://quietaccident.com/releases/black-ice/" />
@@ -232,7 +242,7 @@
   </url>
   <url>
     <loc>https://quietaccident.com/ua/releases/chervona-zona/</loc>
-    <lastmod>2026-11-20</lastmod>
+    <lastmod>2026-11-24</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://quietaccident.com/releases/chervona-zona/" />
     <xhtml:link rel="alternate" hreflang="uk" href="https://quietaccident.com/ua/releases/chervona-zona/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://quietaccident.com/releases/chervona-zona/" />
@@ -250,7 +260,7 @@
   </url>
   <url>
     <loc>https://quietaccident.com/ua/releases/dodai-vohniu/</loc>
-    <lastmod>2026-11-20</lastmod>
+    <lastmod>2026-11-24</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://quietaccident.com/releases/dodai-vohniu/" />
     <xhtml:link rel="alternate" hreflang="uk" href="https://quietaccident.com/ua/releases/dodai-vohniu/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://quietaccident.com/releases/dodai-vohniu/" />
@@ -268,7 +278,7 @@
   </url>
   <url>
     <loc>https://quietaccident.com/ua/releases/halia-drift/</loc>
-    <lastmod>2026-11-20</lastmod>
+    <lastmod>2026-11-24</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://quietaccident.com/releases/halia-drift/" />
     <xhtml:link rel="alternate" hreflang="uk" href="https://quietaccident.com/ua/releases/halia-drift/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://quietaccident.com/releases/halia-drift/" />
@@ -286,7 +296,7 @@
   </url>
   <url>
     <loc>https://quietaccident.com/ua/releases/</loc>
-    <lastmod>2026-11-20</lastmod>
+    <lastmod>2026-11-24</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://quietaccident.com/releases/" />
     <xhtml:link rel="alternate" hreflang="uk" href="https://quietaccident.com/ua/releases/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://quietaccident.com/releases/" />
@@ -296,7 +306,7 @@
   </url>
   <url>
     <loc>https://quietaccident.com/ua/releases/midnight-shchedryk/</loc>
-    <lastmod>2026-11-20</lastmod>
+    <lastmod>2026-11-24</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://quietaccident.com/releases/midnight-shchedryk/" />
     <xhtml:link rel="alternate" hreflang="uk" href="https://quietaccident.com/ua/releases/midnight-shchedryk/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://quietaccident.com/releases/midnight-shchedryk/" />
@@ -314,7 +324,7 @@
   </url>
   <url>
     <loc>https://quietaccident.com/ua/releases/neon-between-us/</loc>
-    <lastmod>2026-11-20</lastmod>
+    <lastmod>2026-11-24</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://quietaccident.com/releases/neon-between-us/" />
     <xhtml:link rel="alternate" hreflang="uk" href="https://quietaccident.com/ua/releases/neon-between-us/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://quietaccident.com/releases/neon-between-us/" />
@@ -332,7 +342,7 @@
   </url>
   <url>
     <loc>https://quietaccident.com/ua/releases/night-pulse/</loc>
-    <lastmod>2026-11-20</lastmod>
+    <lastmod>2026-11-24</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://quietaccident.com/releases/night-pulse/" />
     <xhtml:link rel="alternate" hreflang="uk" href="https://quietaccident.com/ua/releases/night-pulse/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://quietaccident.com/releases/night-pulse/" />
@@ -350,7 +360,7 @@
   </url>
   <url>
     <loc>https://quietaccident.com/ua/releases/night-vector/</loc>
-    <lastmod>2026-11-20</lastmod>
+    <lastmod>2026-11-24</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://quietaccident.com/releases/night-vector/" />
     <xhtml:link rel="alternate" hreflang="uk" href="https://quietaccident.com/ua/releases/night-vector/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://quietaccident.com/releases/night-vector/" />
@@ -367,8 +377,18 @@
     </video:video>
   </url>
   <url>
+    <loc>https://quietaccident.com/ua/releases/pid-shkiroiu/</loc>
+    <lastmod>2026-11-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://quietaccident.com/releases/pid-shkiroiu/" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://quietaccident.com/ua/releases/pid-shkiroiu/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://quietaccident.com/releases/pid-shkiroiu/" />
+    <image:image>
+      <image:loc>https://quietaccident.com/assets/images/releases/Pid_Shkiroiu.png</image:loc>
+    </image:image>
+  </url>
+  <url>
     <loc>https://quietaccident.com/ua/releases/street-mode/</loc>
-    <lastmod>2026-11-20</lastmod>
+    <lastmod>2026-11-24</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://quietaccident.com/releases/street-mode/" />
     <xhtml:link rel="alternate" hreflang="uk" href="https://quietaccident.com/ua/releases/street-mode/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://quietaccident.com/releases/street-mode/" />

@@ -125,7 +125,8 @@
       "Neon Between Us": "Intimate Ukrainian whispers inside atmospheric night-drive techno.",
       "Dodai Vohniu": "Syncopated electronic pressure with rhythmic Ukrainian vocals.",
       "Chervona Zona": "Dark driving techno built around speed, pressure and movement.",
-      "Night Pulse": "Deep sub-bass, Ukrainian vocals and a darker club-focused groove."
+      "Night Pulse": "Deep sub-bass, Ukrainian vocals and a darker club-focused groove.",
+      "Pid Shkiroiu": "Earth-shaking sub-bass, trumpet accents and haunting Ukrainian whispers."
     }
   },
   "/ua/releases/": {
@@ -146,7 +147,8 @@
       "Neon Between Us": "Інтимний український шепіт в атмосферному техно для нічних поїздок.",
       "Додай вогню": "Синкопований електронний ритм і виразний український вокал.",
       "Червона зона": "Темне драйвове техно, побудоване навколо швидкості й напруги.",
-      "Нічний пульс": "Глибокий саббас, український вокал і похмурий клубний грув."
+      "Нічний пульс": "Глибокий саббас, український вокал і похмурий клубний грув.",
+      "Під шкірою": "Потужний саббас, акценти труби й моторошний український шепіт."
     }
   },
   "/releases/night-vector/": {
@@ -349,6 +351,104 @@
       "«Нічний пульс» наближається до атмосфери нічного клубу, зберігаючи кінематографічний характер Quiet Accident. Глибокі низькі частоти та плавний електронний грув стають основою композиції, створюючи темніше й більш інтимне відчуття руху.",
       "Українські вокальні елементи додають електронному аранжуванню людської присутності, а ледь помітні мелодійні відлуння нагадують про українську музичну традицію.",
       "Цей реліз відкриває ще один напрям у звучанні Quiet Accident: менше відкритої автостради, більше глибокого пульсу електронної музики після опівночі."
+    ]
+  },
+  "/releases/pid-shkiroiu/": {
+    "title": "Pid Shkiroiu (Під шкірою) | Quiet Accident",
+    "description": "Discover Pid Shkiroiu by Quiet Accident: dark electronic music with massive sub-bass, hard-hitting drums, short trumpet accents and Ukrainian spoken phrases.",
+    "h1": "Pid Shkiroiu (Під шкірою)",
+    "hero": "Feel the sound beneath your skin.",
+    "ogTitle": "Pid Shkiroiu (Під шкірою) — Quiet Accident",
+    "ogDescription": "Deep bass you can feel. Short trumpet riffs. Ukrainian whispers. Discover the dark electronic single Pid Shkiroiu by Quiet Accident.",
+    "twitterTitle": "Pid Shkiroiu — Quiet Accident",
+    "twitterDescription": "Deep sub-bass, powerful drops and unexpected trumpet accents. Electronic music for the road after dark.",
+    "ogImageAlt": "Quiet Accident Pid Shkiroiu official release artwork in a dark red neon night-drive setting",
+    "ogType": "music.song",
+    "recordingName": "Під шкірою",
+    "recordingAlternateName": "Pid Shkiroiu",
+    "recordingDescription": "A bass-driven electronic single featuring deep sub-bass, powerful drums, brief trumpet accents and Ukrainian spoken-word phrases.",
+    "recordingGenres": [
+      "Dark electronic",
+      "Driving techno"
+    ],
+    "recordingLanguage": "uk",
+    "artworkAlt": "Quiet Accident — Під шкірою official single cover featuring a woman inside a rain-soaked car illuminated by red neon lights",
+    "introParagraphs": [
+      "\"Pid Shkiroiu\" (Ukrainian for \"Under the Skin\") is a bass-driven dark electronic single by Quiet Accident. Built around enormous sub-bass, a hard-hitting kick and hypnotic rolling rhythms, the track explores the physical side of electronic music — the kind of low-end energy you don't just hear, but feel."
+    ],
+    "trackSections": [
+      {
+        "heading": "Deep Bass. Sharp Trumpet. Pure Pressure.",
+        "paragraphs": [
+          "The bass leads the entire arrangement. Heavy low-frequency pulses and a relentless electronic groove create a sense of forward motion, while short, slightly raspy trumpet riffs cut through the darkness.",
+          "Unlike a traditional brass-led track, the trumpet never takes control. It appears in brief, memorable phrases, adding tension and character before disappearing back into the bass.",
+          "Sparse Ukrainian spoken-word samples — including \"Відчуваєш?\" (\"Can you feel it?\") and \"Під шкірою\" (\"Under the skin\") — give the music an intimate, human dimension without interrupting its driving energy."
+        ]
+      },
+      {
+        "heading": "Made for the Road After Dark",
+        "paragraphs": [
+          "\"Pid Shkiroiu\" brings together driving techno, dark electronic sound design and sub-bass-heavy production. Its combination of minimal trumpet hooks, powerful drops and hypnotic rhythms creates an intense soundtrack for night drives, illuminated tunnels and the city after midnight.",
+          "This single is an experimental chapter in the Quiet Accident catalogue, exploring how an unexpected acoustic texture can interact with a dominant electronic bassline."
+        ]
+      },
+      {
+        "heading": "Listen to Pid Shkiroiu",
+        "paragraphs": [
+          "Discover the official release of \"Pid Shkiroiu\" by Quiet Accident on Spotify, Apple Music, YouTube Music and other streaming platforms once available.",
+          "Explore more dark electronic and night-drive music from Quiet Accident in the official release catalogue."
+        ]
+      }
+    ]
+  },
+  "/ua/releases/pid-shkiroiu/": {
+    "title": "Під шкірою — Quiet Accident | Електронна музика",
+    "description": "«Під шкірою» — сингл Quiet Accident із глибоким саббасом, потужним ритмом, короткими партіями труби й українськими голосовими фразами. Музика нічних доріг.",
+    "h1": "Під шкірою",
+    "hero": "Звук, який відчуваєш усім тілом.",
+    "ogTitle": "Під шкірою — Quiet Accident",
+    "ogDescription": "Глибокий саббас, потужні дропи, короткі партії труби та українські голосові фрази. Відкрий новий сингл Quiet Accident.",
+    "twitterTitle": "Під шкірою — Quiet Accident",
+    "twitterDescription": "Потужний бас, гіпнотичний ритм і короткі фрази труби. Електронна музика для нічних поїздок.",
+    "ogImageAlt": "Обкладинка релізу Quiet Accident Під шкірою з червоним неоновим світлом та атмосферою нічного міста",
+    "ogType": "music.song",
+    "recordingName": "Під шкірою",
+    "recordingAlternateName": "Pid Shkiroiu",
+    "recordingDescription": "A bass-driven electronic single featuring deep sub-bass, powerful drums, brief trumpet accents and Ukrainian spoken-word phrases.",
+    "recordingGenres": [
+      "Dark electronic",
+      "Driving techno"
+    ],
+    "recordingLanguage": "uk",
+    "artworkAlt": "Обкладинка синглу Quiet Accident «Під шкірою»: дівчина в автомобілі, краплі дощу на склі та червоне неонове світло",
+    "introParagraphs": [
+      "«Під шкірою» (Pid Shkiroiu) — експериментальний електронний сингл Quiet Accident, у якому головну роль відіграє потужний глибокий бас. Щільний ритм, низькочастотні вібрації та короткі партії труби створюють похмуру, напружену атмосферу нічної дороги.",
+      "Це музика, яку хочеться не просто слухати, а відчувати — від першого удару баса до фінального дропу."
+    ],
+    "trackSections": [
+      {
+        "heading": "Глибокий бас і несподіване звучання труби",
+        "paragraphs": [
+          "Основою композиції є масивний саббас, потужна електронна бочка та гіпнотична басова лінія. Саме низькі частоти визначають характер треку, створюючи відчуття тиску, руху та безперервного ритмічного імпульсу.",
+          "Труба тут не веде мелодію протягом усієї композиції. Її короткі, злегка хриплуваті фрази з'являються між басовими секціями, додаючи несподіваних акцентів і підкреслюючи контраст між живим тембром та електронним звучанням.",
+          "Атмосферу доповнюють лаконічні українські голосові вставки: «Відчуваєш?», «Під шкірою», «Поїхали» та «Не відпускає». Голос стає частиною музичного ритму, не перетворюючи композицію на традиційну вокальну пісню."
+        ]
+      },
+      {
+        "heading": "Електронна музика для нічних поїздок",
+        "paragraphs": [
+          "«Під шкірою» поєднує елементи Dark Electronic і Driving Techno з акцентом на глибокому басі та ритмічній енергії.",
+          "Нічне місто, мокрий асфальт, червоні вогні, порожня автострада — саме в такій атмосфері найкраще розкривається характер композиції.",
+          "Для Quiet Accident цей реліз став музичним експериментом: спробою поєднати незвичний тембр труби з домінантним електронним басом, не втрачаючи драйву та впізнаваної похмурої естетики проєкту."
+        ]
+      },
+      {
+        "heading": "Слухати «Під шкірою»",
+        "paragraphs": [
+          "Знайди офіційний реліз Quiet Accident — «Під шкірою» на Spotify, Apple Music, YouTube Music та інших музичних платформах після його появи.",
+          "Відкривай інші сингли Quiet Accident у каталозі релізів та знаходь музику для наступної нічної поїздки."
+        ]
+      }
     ]
   }
 }
