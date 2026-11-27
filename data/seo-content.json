@@ -399,7 +399,8 @@
           "Explore more dark electronic and night-drive music from Quiet Accident in the official release catalogue."
         ]
       }
-    ]
+    ],
+    "videoBeforeEditorial": true
   },
   "/ua/releases/pid-shkiroiu/": {
     "title": "Під шкірою — Quiet Accident | Електронна музика",
@@ -449,6 +450,7 @@
           "Відкривай інші сингли Quiet Accident у каталозі релізів та знаходь музику для наступної нічної поїздки."
         ]
       }
-    ]
+    ],
+    "videoBeforeEditorial": true
   }
 }

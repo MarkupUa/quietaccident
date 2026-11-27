@@ -183,6 +183,14 @@
     <image:image>
       <image:loc>https://quietaccident.com/assets/images/releases/Pid_Shkiroiu.png</image:loc>
     </image:image>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/_5CppvRb9l4/maxresdefault.jpg</video:thumbnail_loc>
+      <video:title>pid shkirou</video:title>
+      <video:description>Official video for Pid Shkiroiu (Під шкірою) by Quiet Accident.</video:description>
+      <video:player_loc>https://www.youtube-nocookie.com/embed/_5CppvRb9l4</video:player_loc>
+      <video:duration>155</video:duration>
+      <video:publication_date>2026-11-27T08:00:24-08:00</video:publication_date>
+    </video:video>
   </url>
   <url>
     <loc>https://quietaccident.com/releases/street-mode/</loc>
@@ -385,6 +393,14 @@
     <image:image>
       <image:loc>https://quietaccident.com/assets/images/releases/Pid_Shkiroiu.png</image:loc>
     </image:image>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/_5CppvRb9l4/maxresdefault.jpg</video:thumbnail_loc>
+      <video:title>pid shkirou</video:title>
+      <video:description>Офіційне відео «Під шкірою» (Pid Shkiroiu) від Quiet Accident.</video:description>
+      <video:player_loc>https://www.youtube-nocookie.com/embed/_5CppvRb9l4</video:player_loc>
+      <video:duration>155</video:duration>
+      <video:publication_date>2026-11-27T08:00:24-08:00</video:publication_date>
+    </video:video>
   </url>
   <url>
     <loc>https://quietaccident.com/ua/releases/street-mode/</loc>
