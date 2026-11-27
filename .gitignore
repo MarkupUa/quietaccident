@@ -8,3 +8,9 @@ README.md
 **/.*/
 AGENTS.md
 SEO_AUDIT.md
+scripts/build_ai_index.py
+scripts/build_uk.py
+scripts/check_ai_seo.py
+scripts/check_approved_content.py
+scripts/check-browser.cjs
+scripts/seo_content.py
